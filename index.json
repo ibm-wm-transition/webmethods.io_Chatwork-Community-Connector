@@ -1,0 +1,27 @@
+{
+  "name": "Chatwork",
+  "description": "Chatwork",
+  "triggers": [],
+  "actions": [
+    "/v1/get_my_status",
+    "/v1/get_info",
+    "/v1/get_the_list_of_your_contacts",
+    "/v1/get_the_list_of_all_chats_on_your_account",
+    "/v1/add_new_message_to_the_chat"
+  ],
+  "version": 1,
+  "auth_type": "custom",
+  "docs_link": "http://docs.example.com",
+  "appId": "544c68a6-1fd7-4ea0-86f9-4d8e71705811",
+  "guid": "37a5426e-7865-4d91-ab4f-b9a5286c27a9",
+  "connectionUid": "chatwork_1583388155592",
+  "lookup": true,
+  "lookup_attachments": [
+    {
+      "lookup_id": "get_roomid",
+      "action_id": "/v1/add_new_message_to_the_chat",
+      "field_id": "room_id",
+      "dependencies": []
+    }
+  ]
+}
