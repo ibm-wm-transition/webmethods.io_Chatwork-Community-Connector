@@ -28,10 +28,10 @@ Note: If you have installed any other Node version on your system, you can:
 The connector has been built with [wmiocli](https://docs.webmethods.io/integration/developer_guide/connector_builder/#gsc.tab=0), webmethod.io's iPaaS Connector Builder CLI tool, which must be installed. 
 
 ### Getting the API key 
-Follow this link -->
+#### 1.Follow this link -->
 [API Key](https://www.chatwork.com/service/packages/chatwork/subpackages/api/token.php)
-Login to your Chatwork Account.
-Enter your Chatwork password to generate the API Key.
+#### 2.Login to your Chatwork Account.
+#### 3.Enter your Chatwork password to generate the API Key.
 
 ### Installing
 1. Clone the repo `git@github.com:SoftwareAG/webmethods.io_insightly-Community-Connector.git`.
